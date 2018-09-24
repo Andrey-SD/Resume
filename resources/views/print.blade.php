@@ -34,7 +34,7 @@
 		<div class="col-md-6 col-sm-6 col-xs-6 rc">
 			<div>
 				<h2>Контакты</h2>
-				<p><span>г.Днепр (Харьков)</span></p>
+				<p><span>{{$info->сity}}</span></p>
 				<p><span>тел: </span>{{$info->phone_number}} (Viber)</p>
 				<p><span>e-mail: </span>{{$info->email}}</p>
 				<a class="gitlink" href="https://github.com/Andrey-SD?tab=repositories" title="GitHub" target="_blank"> https://github.com/Andrey-SD</a>
